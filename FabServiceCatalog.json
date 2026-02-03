@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "versionDate": "2026-2",
+  "version": 4,
+  "versionDate": "2026-13",
   "worksets": [
     {
       "name": "FAB HANGERS",
@@ -250,6 +250,8 @@
         "(F)EXH-LP",
         "EXHLP",
         "(F)EXHLP",
+        "DEXH",
+        "(F)DEXH",
         "EX-LP",
         "(F)EX-LP"
       ]
@@ -494,6 +496,10 @@
         "(F)RA",
         "RA-PL",
         "(F)RA-PL",
+        "RA-2WG",
+        "(F)RA-2WG",
+        "RA-4WG",
+        "(F)RA-4WG",
         "REA",
         "(F)REA",
         "TA",
@@ -2018,4 +2024,3 @@
     }
   ]
 }
-
