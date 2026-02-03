@@ -1,0 +1,2020 @@
+{
+  "version": 2,
+  "versionDate": "2026-13",
+  "worksets": [
+    {
+      "name": "FAB HANGERS",
+      "worksetName": "MT_HANGERS",
+      "priority": 1,
+      "enabled": true,
+      "createIfMissing": true,
+      "match": { "category": [ "MEP Fabrication Hangers" ] }
+    },
+    {
+      "name": "AIR TERMINALS",
+      "worksetName": "MT_TERMINALS",
+      "priority": 2,
+      "enabled": true,
+      "createIfMissing": true,
+      "match": { "category": [ "Air Terminals" ] }
+    },
+    {
+      "name": "Plumbing Fixtures",
+      "worksetName": "MT_PLUMBING-DWV",
+      "priority": 2,
+      "enabled": true,
+      "createIfMissing": true,
+      "match": { "category": [ "Plumbing Fixtures" ] }
+    },
+    {
+      "name": "Mechanical Equipment",
+      "worksetName": "MT_EQUIPMENT",
+      "priority": 3,
+      "enabled": true,
+      "createIfMissing": true,
+      "match": { "category": [ "MECHANICAL EQUIPMENT" ] }
+    },
+    {
+      "name": "SLEEVES",
+      "worksetName": "MT_SLEEVES",
+      "priority": 4,
+      "enabled": true,
+      "createIfMissing": true,
+      "match": { "fabrication": { "cids": [ 149, 972 ] } }
+    },
+    {
+      "name": "DAMAPERS",
+      "worksetName": "MT_FIRE-DAMPER",
+      "priority": 5,
+      "enabled": true,
+      "createIfMissing": true,
+      "match": {
+        "fabrication": {
+          "cids": [ 914 ],
+          "nameContainsAll": [ "DAMPER" ]
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "materialName": "FAB_EXISTING",
+      "description": "FAB_EXISTING",
+      "color": {
+        "R": 128,
+        "G": 128,
+        "B": 128
+      }
+    },
+    {
+      "materialName": "FABDUCT_EXHAUST FLUE",
+      "description": "FABDUCT_EXHAUST FLUE",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 76,
+        "G": 36,
+        "B": 0
+      },
+      "abbreviations": [
+        "EXH-FLUE",
+        "(F)EXH-FLUE",
+        "BF",
+        "(F)BF"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_ALUMINUM",
+      "description": "FABDUCT_ALUMINUM",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 0,
+        "G": 185,
+        "B": 90
+      },
+      "abbreviations": [
+        "-ALUM",
+        "(F)-ALUM",
+        "ALUM",
+        "(F)ALUM",
+        "EXH-AL",
+        "(F)EXH-AL",
+        "EXHAL",
+        "(F)EXHAL",
+        "EX-AL",
+        "(F)EX-AL",
+        "EXAL",
+        "(F)EXAL",
+        "HEA-AL",
+        "(F)HEA-AL",
+        "HEAAL",
+        "(F)HEAAL"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_STAINLESS",
+      "description": "FABDUCT_STAINLESS",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 50,
+        "G": 200,
+        "B": 0
+      },
+      "abbreviations": [
+        "-SS",
+        "(F)-SS",
+        "SS",
+        "(F)SS",
+        "EXH-LP-SS",
+        "(F)EXH-LP-SS",
+        "EXHLP-SS",
+        "(F)EXHLP-SS",
+        "EXHLPSS",
+        "(F)EXHLPSS",
+        "EXH-HD-MP-SS",
+        "(F)EXH-HD-MP-SS",
+        "EXHHD-MP-SS",
+        "(F)EXHHD-MP-SS",
+        "EXHHDMP-SS",
+        "(F)EXHHDMP-SS",
+        "EXHHDMPSS",
+        "(F)EXHHDMPSS",
+        "EX-HD-MP-SS",
+        "(F)EX-HD-MP-SS",
+        "EXHD-MP-SS",
+        "(F)EXHD-MP-SS",
+        "EXHDMP-SS",
+        "(F)EXHDMP-SS",
+        "EXHDMPSS",
+        "(F)EXHDMPSS",
+        "EX-LP-SS",
+        "(F)EX-LP-SS",
+        "EXLP-SS",
+        "(F)EXLP-SS",
+        "EXLPSS",
+        "(F)EXLPSS",
+        "EXH-MP-SS",
+        "(F)EXH-MP-SS",
+        "EXHMP-SS",
+        "(F)EXHMP-SS",
+        "EXHMPSS",
+        "(F)EXHMPSS",
+        "EX-MP-SS",
+        "(F)EX-MP-SS",
+        "EXMP-SS",
+        "(F)EXMP-SS",
+        "EXMPSS",
+        "(F)EXMPSS",
+        "EX-SS",
+        "(F)EX-SS",
+        "EXSS",
+        "(F)EXSS",
+        "EXH-SS",
+        "(F)EXH-SS",
+        "EXHSS",
+        "(F)EXHSS",
+        "HEA-SS",
+        "(F)HEA-SS",
+        "HEASS",
+        "(F)HEASS",
+        "HEA-FRP",
+        "(F)HEA-FRP",
+        "HEAFRP",
+        "(F)HEAFRP",
+        "SALP-SS",
+        "(F)SALP-SS",
+        "SAMP-SS",
+        "(F)SAMP-SS",
+        "SAMPSS",
+        "(F)SAMPSS",
+        "PEA",
+        "(F)PEA",
+        "SA-SS",
+        "(F)SA-SS"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_EXHAUST PCD LOW PRESSURE",
+      "description": "FABDUCT_EXHAUST PCD LOW PRESSURE",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 200,
+        "G": 60,
+        "B": 0
+      },
+      "abbreviations": [
+        "PCD",
+        "(F)PCD",
+        "EXH-PCD-LP",
+        "(F)EXH-PCD-LP",
+        "EXHPCD-LP",
+        "(F)EXHPCD-LP",
+        "EXHPCDLP",
+        "(F)EXHPCDLP",
+        "EX-PCD-LP",
+        "(F)EX-PCD-LP",
+        "EXPCD-LP",
+        "(F)EXPCD-LP",
+        "EXPCDLP",
+        "(F)EXPCDLP",
+        "EXH-LP-PCD",
+        "(F)EXH-LP-PCD",
+        "EXHLP-PCD",
+        "(F)EXHLP-PCD",
+        "EXHLPPCD",
+        "(F)EXHLPPCD",
+        "EX-LP-PCD",
+        "(F)EX-LP-PCD",
+        "EXLP-PCD",
+        "(F)EXLP-PCD",
+        "EXLPPCD",
+        "(F)EXLPPCD"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_EXHAUST AIR",
+      "description": "FABDUCT_EXHAUST AIR",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 208,
+        "G": 106,
+        "B": 0
+      },
+      "abbreviations": [
+        "EXH",
+        "(F)EXH",
+        "EXH-PL",
+        "(F)EXH-PL",
+        "EX",
+        "(F)EX",
+        "EXH-LP",
+        "(F)EXH-LP",
+        "EXHLP",
+        "(F)EXHLP",
+        "EX-LP",
+        "(F)EX-LP"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_EXHAUST SMOKE AIR",
+      "description": "FABDUCT_EXHAUST SMOKE AIR",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 200,
+        "G": 60,
+        "B": 0
+      },
+      "abbreviations": [
+        "EXH-SMOKE",
+        "(F)EXH-SMOKE"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_EXHAUST MEDIUM PRESSURE",
+      "description": "FABDUCT_EXHAUST MEDIUM PRESSURE",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 208,
+        "G": 106,
+        "B": 0
+      },
+      "abbreviations": [
+        "EX-MP",
+        "(F)EX-MP",
+        "EXMP",
+        "(F)EXMP",
+        "EXH-MP",
+        "(F)EXH-MP"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_EXHAUST PCD MEDIUM PRESSURE",
+      "description": "FABDUCT_EXHAUST PCD MEDIUM PRESSURE",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 200,
+        "G": 60,
+        "B": 0
+      },
+      "abbreviations": [
+        "EXH-PCD-MP",
+        "(F)EXH-PCD-MP",
+        "EXHPCD-MP",
+        "(F)EXHPCD-MP",
+        "EXHPCDMP",
+        "(F)EXHPCDMP",
+        "EX-PCD-MP",
+        "(F)EX-PCD-MP",
+        "EXPCD-MP",
+        "(F)EXPCD-MP",
+        "EXPCDMP",
+        "(F)EXPCDMP",
+        "EXH-MP-PCD",
+        "(F)EXH-MP-PCD",
+        "EXHMP-PCD",
+        "(F)EXHMP-PCD",
+        "EXHMPPCD",
+        "(F)EXHMPPCD",
+        "EX-MP-PCD",
+        "(F)EX-MP-PCD",
+        "EXMP-PCD",
+        "(F)EXMP-PCD",
+        "EXMPPCD",
+        "(F)EXMPPCD"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_EXHAUST GREASE",
+      "description": "FABDUCT_EXHAUST GREASE",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 165,
+        "G": 165,
+        "B": 0
+      },
+      "abbreviations": [
+        "EXH-GR",
+        "(F)EXH-GR",
+        "EXHGR",
+        "(F)EXHGR",
+        "EXH-GD",
+        "(F)EXH-GD",
+        "EXHGD",
+        "(F)EXHGD",
+        "EX-GR",
+        "(F)EX-GR",
+        "EXGR",
+        "(F)EXGR"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_DUST COLLECTOR EXHAUST",
+      "description": "FABDUCT_DUST COLLECTOR EXHAUST",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 76,
+        "G": 39,
+        "B": 0
+      },
+      "abbreviations": [
+        "EX-DC",
+        "(F)EX-DC",
+        "EXDC",
+        "(F)EXDC",
+        "EXH-DC",
+        "(F)EXH-DC",
+        "EXHDC",
+        "(F)EXHDC",
+        "EXH-HPDC",
+        "(F)EXH-HPDC",
+        "EXHHPDC",
+        "(F)EXHHPDC",
+        "DC-EXH",
+        "(F)DC-EXH",
+        "DCEXH",
+        "(F)DCEXH",
+        "DC-EX",
+        "(F)DC-EX",
+        "DCEX",
+        "(F)DCEX"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_FIRE PLACE FLUE",
+      "description": "FABDUCT_FIRE PLACE FLUE",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 165,
+        "G": 0,
+        "B": 0
+      },
+      "abbreviations": [
+        "FPF",
+        "(F)FPF"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_MAKE UP AIR",
+      "description": "FABDUCT_MAKE UP AIR",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 0,
+        "G": 165,
+        "B": 124
+      },
+      "abbreviations": [
+        "MAU",
+        "(F)MAU"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_SUPPLY AIR LOW PRESSURE",
+      "description": "FABDUCT_SUPPLY AIR LOW PRESSURE",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 0,
+        "G": 60,
+        "B": 238
+      },
+      "abbreviations": [
+        "SA-LP",
+        "(F)SA-LP",
+        "SALP",
+        "(F)SALP",
+        "LP-SA",  
+        "(F)LP-SA",
+        "LPSA-PL",
+        "(F)LPSA-PL",
+        "LPSA",
+        "(F)LPSA"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_SUPPLY AIR MEDIUM PRESSURE",
+      "description": "FABDUCT_SUPPLY AIR MEDIUM PRESSURE",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 0,
+        "G": 160,
+        "B": 220
+      },
+      "abbreviations": [
+        "SA-MP",
+        "(F)SA-MP",
+        "SAMP",
+        "(F)SAMP",
+        "MP-SA",
+        "(F)MP-SA",
+        "MPSA-PL",
+        "(F)MPSA-PL",
+        "MPSA",
+        "(F)MPSA"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_OUTSIDE AIR",
+      "description": "FABDUCT_OUTSIDE AIR",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 115,
+        "G": 115,
+        "B": 255
+      },
+      "abbreviations": [
+        "OSA",
+        "(F)OSA"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_OUTSIDE AIR MEDIUM PRESSURE",
+      "description": "FABDUCT_OUTSIDE AIR MEDIUM PRESSURE",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 115,
+        "G": 115,
+        "B": 225
+      },
+      "abbreviations": [
+        "OSA-MP",
+        "(F)OSA-MP",
+        "OSAMP",
+        "(F)OSAMP"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_RETURN AIR",
+      "description": "FABDUCT_RETURN AIR",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 165,
+        "G": 0,
+        "B": 220
+      },
+      "abbreviations": [
+        "RA",
+        "(F)RA",
+        "RA-PL",
+        "(F)RA-PL",
+        "REA",
+        "(F)REA",
+        "TA",
+        "(F)TA"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_OUTSIDE AIR LOW PRESSURE",
+      "description": "FABDUCT_OUTSIDE AIR LOW PRESSURE",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 0,
+        "G": 165,
+        "B": 124
+      },
+      "abbreviations": [
+        "OSA-LP",
+        "(F)OSA-LP",
+        "OSALP",
+        "(F)OSALP"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_MEDIUM PRESSURE RETURN AIR",
+      "description": "FABDUCT_MEDIUM PRESSURE RETURN AIR",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 204,
+        "G": 0,
+        "B": 153
+      },
+      "abbreviations": [
+        "RA-MP",
+        "(F)RA-MP",
+        "RAMP",
+        "(F)RAMP"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_DUST COLLECTOR SUPPLY AIR",
+      "description": "FABDUCT_DUST COLLECTOR SUPPLY AIR",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 115,
+        "G": 115,
+        "B": 255
+      },
+      "abbreviations": [
+        "DC-SA",
+        "(F)DC-SA",
+        "DCSA",
+        "(F)DCSA",
+        "SA-DC",
+        "(F)SA-DC",
+        "SADC",
+        "(F)SADC"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_DOMESTIC COLD WATER",
+      "description": "FABPLMG_DOMESTIC COLD WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 0,
+        "G": 82,
+        "B": 165
+      },
+      "abbreviations": [
+        "DCW",
+        "(F)DCW",
+        "CW",
+        "(F)CW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_DOMESTIC HOT WATER",
+      "description": "FABPLMG_DOMESTIC HOT WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 165,
+        "G": 41,
+        "B": 0
+      },
+      "abbreviations": [
+        "DHW",
+        "(F)DHW",
+        "HW",
+        "(F)HW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_DOMESTIC HOT WATER RETURN",
+      "description": "FABPLMG_DOMESTIC HOT WATER RETURN",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 165,
+        "G": 82,
+        "B": 0
+      },
+      "abbreviations": [
+        "DHWR",
+        "(F)DHWR",
+        "DHWC",
+        "(F)DHWC",
+        "HWC",
+        "(F)HWC"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_180 HOT WATER",
+      "description": "FABPLMG_180 HOT WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 127,
+        "G": 63,
+        "B": 127
+      },
+      "abbreviations": [
+        "180HW",
+        "(F)180HW",
+        "DHW-140",
+        "(F)DHW-140"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_180 HOT WATER RETURN",
+      "description": "FABPLMG_180 HOT WATER RETURN",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 165,
+        "G": 0,
+        "B": 165
+      },
+      "abbreviations": [
+        "180HWR",
+        "(F)180HWR",
+        "180HWR",
+        "(F)180HWR",
+        "DHWR-140",
+        "(F)DHWR-140"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_INDUSTRIAL COLD WATER",
+      "description": "FABPLMG_INDUSTRIAL COLD WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 63,
+        "G": 95,
+        "B": 127
+      },
+      "abbreviations": [
+        "ICW",
+        "(F)ICW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_DEIONIZED WATER",
+      "description": "FABPLMG_DEIONIZED WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 57,
+        "G": 76,
+        "B": 38
+      },
+      "abbreviations": [
+        "IDI",
+        "(F)IDI",
+        "DI",
+        "(F)DI"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_DEIONIZED WATER RETURN",
+      "description": "FABPLMG_DEIONIZED WATER RETURN",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 76,
+        "G": 76,
+        "B": 38
+      },
+      "abbreviations": [
+        "DIR",
+        "(F)DIR",
+        "IDIR",
+        "(F)IDIR"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_REVERSE OSMOSIS",
+      "description": "FABPLMG_REVERSE OSMOSIS",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 255,
+        "G": 128,
+        "B": 192
+      },
+      "abbreviations": [
+        "RODI",
+        "(F)RODI"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_INDUSTRIAL HOT WATER",
+      "description": "FABPLMG_INDUSTRIAL HOT WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 76,
+        "G": 19,
+        "B": 0
+      },
+      "abbreviations": [
+        "IHW",
+        "(F)IHW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_INDUSTRIAL HOT WATER RETURN",
+      "description": "FABPLMG_INDUSTRIAL HOT WATER RETURN",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 76,
+        "G": 57,
+        "B": 0
+      },
+      "abbreviations": [
+        "IHWR",
+        "(F)IHWR"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_INDUSTRIAL SOFTENED WATER",
+      "description": "FABPLMG_INDUSTRIAL SOFTENED WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 63,
+        "G": 95,
+        "B": 127
+      },
+      "abbreviations": [
+        "ISW",
+        "(F)ISW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_NON-POTABLE WATER",
+      "description": "FABPLMG_NON-POTABLE WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 76,
+        "G": 38,
+        "B": 0
+      },
+      "abbreviations": [
+        "NPW",
+        "(F)NPW",
+        "NPCW",
+        "(F)NPCW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_SOFT WATER",
+      "description": "FABPLMG_SOFT WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 82,
+        "G": 82,
+        "B": 165
+      },
+      "abbreviations": [
+        "SW",
+        "(F)SW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_TEMPERED WATER",
+      "description": "FABPLMG_TEMPERED WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 165,
+        "G": 82,
+        "B": 82
+      },
+      "abbreviations": [
+        "TW",
+        "(F)TW",
+        "TPW",
+        "(F)TPW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_IRRIGATION WATER",
+      "description": "FABPLMG_IRRIGATION WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 124,
+        "G": 82,
+        "B": 165
+      },
+      "abbreviations": [
+        "IRR",
+        "(F)IRR"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_NATURAL GAS",
+      "description": "FABPLMG_NATURAL GAS",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 0,
+        "G": 127,
+        "B": 31
+      },
+      "abbreviations": [
+        "NG",
+        "(F)NG"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_FILTERED WATER",
+      "description": "FABPLMG_FILTERED WATER",
+      "worksetName": "MT_PLUMBING-DOM",
+      "color": {
+        "R": 210,
+        "G": 0,
+        "B": 158
+      },
+      "abbreviations": [
+        "FW",
+        "(F)FW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_ACETONITRILE",
+      "description": "FABPLMG_ACETONITRILE",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 75,
+        "G": 7,
+        "B": 8
+      },
+      "abbreviations": [
+        "MeCN",
+        "(F)MeCN"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_ARGON",
+      "description": "FABPLMG_ARGON",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 165,
+        "G": 0,
+        "B": 165
+      },
+      "abbreviations": [
+        "AR",
+        "(F)AR"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_COMPRESSED AIR",
+      "description": "FABPLMG_COMPRESSED AIR",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 165,
+        "G": 165,
+        "B": 82
+      },
+      "abbreviations": [
+        "CA",
+        "(F)CA"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_BUFFER",
+      "description": "FABPLMG_BUFFER",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 145,
+        "G": 165,
+        "B": 82
+      },
+      "abbreviations": [
+        "B",
+        "(F)B"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_CARBON DIOXIDE",
+      "description": "FABPLMG_CARBON DIOXIDE",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 255,
+        "G": 191,
+        "B": 0
+      },
+      "abbreviations": [
+        "CO2",
+        "(F)CO2"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_DEBLOCK-DETRY",
+      "description": "FABPLMG_DEBLOCK-DETRY",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 255,
+        "G": 50,
+        "B": 50
+      },
+      "abbreviations": [
+        "DD",
+        "(F)DD"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_ETHANOL",
+      "description": "FABPLMG_ETHANOL",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 215,
+        "G": 128,
+        "B": 192
+      },
+      "abbreviations": [
+        "EtOH",
+        "(F)EtOH"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_GAS PRESSURE RELIEF",
+      "description": "FABPLMG_GAS PRESSURE RELIEF",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 165,
+        "G": 0,
+        "B": 82
+      },
+      "abbreviations": [
+        "GPR",
+        "(F)GPR"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_HELIUM",
+      "description": "FABPLMG_HELIUM",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 165,
+        "G": 124,
+        "B": 82
+      },
+      "abbreviations": [
+        "HE",
+        "(F)HE"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_HYDROGEN",
+      "description": "FABPLMG_HYDROGEN",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 0,
+        "G": 165,
+        "B": 165
+      },
+      "abbreviations": [
+        "H",
+        "(F)H",
+        "H2",
+        "(F)H2"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_INSTRUMENT AIR",
+      "description": "FABPLMG_INSTRUMENT AIR",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 165,
+        "G": 0,
+        "B": 41
+      },
+      "abbreviations": [
+        "IAIR",
+        "(F)IAIR"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_MEDICAL AIR",
+      "description": "FABPLMG_MEDICAL AIR",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 165,
+        "G": 0,
+        "B": 41
+      },
+      "abbreviations": [
+        "MAIR",
+        "(F)MAIR",
+        "MA",
+        "(F)MA"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_NITROUS OXIDE",
+      "description": "FABPLMG_NITROUS OXIDE",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 255,
+        "G": 0,
+        "B": 191
+      },
+      "abbreviations": [
+        "N2O",
+        "(F)N2O"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_NITROGEN",
+      "description": "FABPLMG_NITROGEN",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 31,
+        "G": 0,
+        "B": 127
+      },
+      "abbreviations": [
+        "N",
+        "(F)N",
+        "N2",
+        "(F)N2",
+        "LN2",
+        "(F)LN2",
+        "GN2",
+        "(F)GN2"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_OXIDIZER",
+      "description": "FABPLMG_OXIDIZER",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 127,
+        "G": 127,
+        "B": 0
+      },
+      "abbreviations": [
+        "OX",
+        "(F)OX"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_OXYGEN",
+      "description": "FABPLMG_OXYGEN",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 0,
+        "G": 165,
+        "B": 0
+      },
+      "abbreviations": [
+        "O2",
+        "(F)O2"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_VACUUM",
+      "description": "FABPLMG_VACUUM",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 165,
+        "G": 82,
+        "B": 0
+      },
+      "abbreviations": [
+        "VAC",
+        "(F)VAC",
+        "MV",
+        "(F)MV"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_MEDGAS_VACUUM",
+      "description": "FABPLMG_MEDGAS_VACUUM",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 165,
+        "G": 82,
+        "B": 130
+      },
+      "abbreviations": [
+        "MGV",
+        "(F)MGV"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_ZERO AIR",
+      "description": "FABPLMG_ZERO AIR",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 0,
+        "G": 128,
+        "B": 255
+      },
+      "abbreviations": [
+        "0AIR",
+        "(F)0AIR",
+        "CAIR",
+        "(F)CAIR"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_REVERSE OSMOSIS RETURN",
+      "description": "FABPLMG_REVERSE OSMOSIS RETURN",
+      "worksetName": "MT-GASES",
+      "color": {
+        "R": 255,
+        "G": 128,
+        "B": 192
+      },
+      "abbreviations": [
+        "ROR",
+        "(F)ROR",
+        "RO",
+        "(F)RO"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_WASTE ANESTHETIC GAS DISPOSAL",
+      "description": "FABPLMG_WASTE ANESTHETIC GAS DISPOSAL",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 124,
+        "G": 0,
+        "B": 165
+      },
+      "abbreviations": [
+        "WAGD",
+        "(F)WAGD"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_WASTE",
+      "description": "FABPLMG_WASTE",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 165,
+        "G": 165,
+        "B": 0
+      },
+      "abbreviations": [
+        "W",
+        "(F)W",
+        "SCW",
+        "(F)SCW",
+        "BD",
+        "(F)BD",
+        "BS",
+        "(F)BS"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_VENT",
+      "description": "FABPLMG_VENT",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 165,
+        "G": 41,
+        "B": 0
+      },
+      "abbreviations": [
+        "V",
+        "(F)V",
+        "BV",
+        "(F)BV"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_LAB WASTE",
+      "description": "FABPLMG_LAB WASTE",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 95,
+        "G": 0,
+        "B": 127
+      },
+      "abbreviations": [
+        "LW",
+        "(F)LW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_LAB VENT",
+      "description": "FABPLMG_LAB VENT",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 223,
+        "G": 127,
+        "B": 225
+      },
+      "abbreviations": [
+        "LV",
+        "(F)LV"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_ACID WASTE",
+      "description": "FABPLMG_ACID WASTE",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 95,
+        "G": 0,
+        "B": 127
+      },
+      "abbreviations": [
+        "AW",
+        "(F)AW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_ACID VENT",
+      "description": "FABPLMG_ACID VENT",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 223,
+        "G": 127,
+        "B": 255
+      },
+      "abbreviations": [
+        "AV",
+        "(F)AV"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_STORM",
+      "description": "FABPLMG_STORM",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 0,
+        "G": 120,
+        "B": 30
+      },
+      "abbreviations": [
+        "ST",
+        "(F)ST",
+        "SD",
+        "(F)SD",
+        "RDL",
+        "(F)RDL"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_OVERFLOW DRAIN",
+      "description": "FABPLMG_OVERFLOW DRAIN",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 53,
+        "G": 210,
+        "B": 0
+      },
+      "abbreviations": [
+        "OD",
+        "(F)OD"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_GREASE WASTE",
+      "description": "FABPLMG_GREASE WASTE",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 124,
+        "G": 165,
+        "B": 0
+      },
+      "abbreviations": [
+        "GW",
+        "(F)GW"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_GREASE VENT",
+      "description": "FABPLMG_GREASE VENT",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 255,
+        "G": 127,
+        "B": 0
+      },
+      "abbreviations": [
+        "GV",
+        "(F)GV"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_SAND OIL DRAIN",
+      "description": "FABPLMG_SAND OIL DRAIN",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 76,
+        "G": 19,
+        "B": 0
+      },
+      "abbreviations": [
+        "SOD",
+        "(F)SOD",
+        "SOI",
+        "(F)SOI"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_SAND OIL VENT",
+      "description": "FABPLMG_SAND OIL VENT",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 76,
+        "G": 76,
+        "B": 38
+      },
+      "abbreviations": [
+        "SOV",
+        "(F)SOV"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_CONDENSATE",
+      "description": "FABPLMG_CONDENSATE",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 0,
+        "G": 124,
+        "B": 165
+      },
+      "abbreviations": [
+        "CD",
+        "(F)CD",
+        "CN",
+        "(F)CN"
+      ]
+    },
+    {
+      "materialName": "FABPLMG_SUMP DISCHARGE",
+      "description": "FABPLMG_SUMP DISCHARGE",
+      "worksetName": "MT_PLUMBING-DWV",
+      "color": {
+        "R": 255,
+        "G": 128,
+        "B": 0
+      },
+      "abbreviations": [
+        "PD",
+        "(F)PD",
+        "ESD",
+        "(F)ESD",
+        "SPD",
+        "(F)SPD"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_CHILLED WATER RETURN",
+      "description": "FABMPIPE_CHILLED WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 82,
+        "B": 165
+      },
+      "abbreviations": [
+        "CHWR",
+        "(F)CHWR",
+        "CHR",
+        "(F)CHR",
+        "CCHR",
+        "(F)CCHR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_CHILLED WATER SUPPLY",
+      "description": "FABMPIPE_CHILLED WATER SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 0,
+        "B": 254
+      },
+      "abbreviations": [
+        "CHWS",
+        "(F)CHWS",
+        "CH",
+        "(F)CH",
+        "CHS",
+        "(F)CHS",
+        "CCH",
+        "(F)CCH"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_CROSSOVER PIPING RETURN",
+      "description": "FABMPIPE_CROSSOVER PIPING RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 191,
+        "G": 255,
+        "B": 127
+      },
+      "abbreviations": [
+        "CRR",
+        "(F)CRR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_CROSSOVER PIPING SUPPLY",
+      "description": "FABMPIPE_CROSSOVER PIPING SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 254,
+        "B": 0
+      },
+      "abbreviations": [
+        "CRS",
+        "(F)CRS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_TEPID CHILLED WATER RETURN",
+      "description": "FABMPIPE_TEPID CHILLED WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 76,
+        "G": 57,
+        "B": 0
+      },
+      "abbreviations": [
+        "TCHR",
+        "(F)TCHR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_TEPID CHILLED WATER SUPPLY",
+      "description": "FABMPIPE_TEPID CHILLED WATER SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 145,
+        "G": 165,
+        "B": 82
+      },
+      "abbreviations": [
+        "TCHS",
+        "(F)TCHS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_CONDENSATE - HIGH PRESSURE",
+      "description": "FABMPIPE_CONDENSATE - HIGH PRESSURE",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 255,
+        "G": 127,
+        "B": 223
+      },
+      "abbreviations": [
+        "HPC",
+        "(F)HPC",
+        "HPR",
+        "(F)HPR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_CONDENSATE - MEDIUM PRESSURE",
+      "description": "FABMPIPE_CONDENSATE - MEDIUM PRESSURE",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 165,
+        "G": 124,
+        "B": 0
+      },
+      "abbreviations": [
+        "MPC",
+        "(F)MPC"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_CONDENSATE - LOW PRESSURE",
+      "description": "FABMPIPE_CONDENSATE - LOW PRESSURE",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 127,
+        "G": 0,
+        "B": 95
+      },
+      "abbreviations": [
+        "LPC",
+        "(F)LPC"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_CONDENSER WATER EQUALIZER",
+      "description": "FABMPIPE_CONDENSER WATER EQUALIZER",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 95,
+        "G": 127,
+        "B": 0
+      },
+      "abbreviations": [
+        "CDEQ",
+        "(F)CDEQ"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_CONDENSER WATER SUPPLY",
+      "description": "FABMPIPE_CONDENSER WATER SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 254,
+        "B": 0
+      },
+      "abbreviations": [
+        "CS",
+        "(F)CS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_CONDENSER WATER RETURN",
+      "description": "FABMPIPE_CONDENSER WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 191,
+        "G": 255,
+        "B": 127
+      },
+      "abbreviations": [
+        "CR",
+        "(F)CR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_EMERGENCY FUEL OIL VENTING",
+      "description": "FABMPIPE_EMERGENCY FUEL OIL VENTING",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 127,
+        "G": 0,
+        "B": 95
+      },
+      "abbreviations": [
+        "EFOV",
+        "(F)EFOV"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_FUEL OIL SUPPLY",
+      "description": "FABMPIPE_FUEL OIL SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 76,
+        "G": 0,
+        "B": 57
+      },
+      "abbreviations": [
+        "FOS",
+        "(F)FOS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_FUEL OIL VENTING",
+      "description": "FABMPIPE_FUEL OIL VENTING",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 165,
+        "G": 0,
+        "B": 82
+      },
+      "abbreviations": [
+        "FOV",
+        "(F)FOV"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_FUEL OIL RETURN",
+      "description": "FABMPIPE_FUEL OIL RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 200,
+        "G": 60,
+        "B": 0
+      },
+      "abbreviations": [
+        "FOR",
+        "(F)FOR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_HEATING WATER SUPPLY",
+      "description": "FABMPIPE_HEATING WATER SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 254,
+        "G": 0,
+        "B": 0
+      },
+      "abbreviations": [
+        "HS",
+        "(F)HS",
+        "HWS",
+        "(F)HWS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_HEATING WATER RETURN",
+      "description": "FABMPIPE_HEATING WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 255,
+        "G": 127,
+        "B": 127
+      },
+      "abbreviations": [
+        "HR",
+        "(F)HR",
+        "HWR",
+        "(F)HWR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_NATURAL GAS VENT",
+      "description": "FABMPIPE_NATURAL GAS VENT",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 165,
+        "B": 124
+      },
+      "abbreviations": [
+        "NGV",
+        "(F)NGV"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_PROCESSED CHILLED WATER SUPPLY",
+      "description": "FABMPIPE_PROCESSED CHILLED WATER SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 0,
+        "B": 254
+      },
+      "abbreviations": [
+        "PCWS",
+        "(F)PCWS",
+        "PCS",
+        "(F)PCS",
+        "CTFS",
+        "(F)CTFS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_PROCESSED CHILLED WATER RETURN",
+      "description": "FABMPIPE_PROCESSED CHILLED WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 82,
+        "B": 165
+      },
+      "abbreviations": [
+        "PCWR",
+        "(F)PCWR",
+        "PCR",
+        "(F)PCR",
+        "CTFR",
+        "(F)CTFR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_REFRIGERANT LINESET",
+      "description": "FABMPIPE_REFRIGERANT LINESET",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 145,
+        "B": 0
+      },
+      "abbreviations": [
+        "RLS",
+        "(F)RLS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_REFRIGERANT PIPING GAS",
+      "description": "FABMPIPE_REFRIGERANT PIPING GAS",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 165,
+        "B": 165
+      },
+      "abbreviations": [
+        "REFGAS",
+        "(F)REFGAS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_REFRIGERANT PIPING SUCTION",
+      "description": "FABMPIPE_REFRIGERANT PIPING SUCTION",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 165,
+        "B": 82
+      },
+      "abbreviations": [
+        "REFSUC",
+        "(F)REFSUC",
+        "RS",
+        "(F)RS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_REFRIGERANT PIPING LIQUID",
+      "description": "FABMPIPE_REFRIGERANT PIPING LIQUID",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 165,
+        "B": 124
+      },
+      "abbreviations": [
+        "REFLIQ",
+        "(F)REFLIQ",
+        "RL",
+        "(F)RL"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_REFRIGERANT VENT",
+      "description": "FABMPIPE_REFRIGERANT VENT",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 200,
+        "G": 60,
+        "B": 0
+      },
+      "abbreviations": [
+        "REFV",
+        "(F)REFV"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_STEAM HIGH PRESSURE",
+      "description": "FABMPIPE_STEAM HIGH PRESSURE",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 127,
+        "G": 0,
+        "B": 127
+      },
+      "abbreviations": [
+        "HPS",
+        "(F)HPS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_STEAM MEDIUM PRESSURE",
+      "description": "FABMPIPE_STEAM MEDIUM PRESSURE",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 124,
+        "G": 165,
+        "B": 0
+      },
+      "abbreviations": [
+        "MPS",
+        "(F)MPS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_STEAM LOW PRESSURE",
+      "description": "FABMPIPE_STEAM LOW PRESSURE",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 124,
+        "G": 0,
+        "B": 165
+      },
+      "abbreviations": [
+        "LPS",
+        "(F)LPS",
+        "LPS-C",
+        "(F)LPS-C"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_STEAM VENT",
+      "description": "FABMPIPE_STEAM VENT",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 127,
+        "B": 31
+      },
+      "abbreviations": [
+        "SV",
+        "(F)SV"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_SNOW MELT SUPPLY",
+      "description": "FABMPIPE_SNOW MELT SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 145,
+        "G": 165,
+        "B": 82
+      },
+      "abbreviations": [
+        "SMS",
+        "(F)SMS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_SNOW MELT RETURN",
+      "description": "FABMPIPE_SNOW MELT RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 76,
+        "G": 57,
+        "B": 0
+      },
+      "abbreviations": [
+        "SMR",
+        "(F)SMR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_GLYCOL WATER RETURN",
+      "description": "FABMPIPE_GLYCOL WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 111,
+        "G": 127,
+        "B": 63
+      },
+      "abbreviations": [
+        "GWR",
+        "(F)GWR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_GLYCOL WATER SUPPLY",
+      "description": "FABMPIPE_GLYCOL WATER SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 124,
+        "G": 165,
+        "B": 0
+      },
+      "abbreviations": [
+        "GWS",
+        "(F)GWS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_ENERGY RECOVERY - EXH GLYCOL RETURN",
+      "description": "FABMPIPE_ENERGY RECOVERY - EXH GLYCOL RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 208,
+        "G": 106,
+        "B": 0
+      },
+      "abbreviations": [
+        "SGR",
+        "(F)SGR",
+        "EGR",
+        "(F)EGR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_ENERGY RECOVERY - EXH GLYCOL",
+      "description": "FABMPIPE_ENERGY RECOVERY - EXH GLYCOL",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 200,
+        "G": 60,
+        "B": 0
+      },
+      "abbreviations": [
+        "SGS",
+        "(F)SGS",
+        "EGS",
+        "(F)EGS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_AMBIENT WATER RETURN",
+      "description": "FABMPIPE_AMBIENT WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 116,
+        "G": 190,
+        "B": 199
+      },
+      "abbreviations": [
+        "AWR",
+        "(F)AWR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_AMBIENT WATER SUPPLY",
+      "description": "FABMPIPE_AMBIENT WATER SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 56,
+        "G": 131,
+        "B": 139
+      },
+      "abbreviations": [
+        "AWS",
+        "(F)AWS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_HEAT RECOVERY WATER RETURN",
+      "description": "FABMPIPE_HEAT RECOVERY WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 255,
+        "G": 127,
+        "B": 127
+      },
+      "abbreviations": [
+        "HRWR",
+        "(F)HRWR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_HEAT RECOVERY WATER SUPPLY",
+      "description": "FABMPIPE_HEAT RECOVERY WATER SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 254,
+        "G": 0,
+        "B": 0
+      },
+      "abbreviations": [
+        "HRWS",
+        "(F)HRWS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_TOWER WATER RETURN",
+      "description": "FABMPIPE_TOWER WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 191,
+        "G": 255,
+        "B": 127
+      },
+      "abbreviations": [
+        "TWR",
+        "(F)TWR"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_TOWER WATER SUPPLY",
+      "description": "FABMPIPE_TOWER WATER SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 254,
+        "B": 0
+      },
+      "abbreviations": [
+        "TWS",
+        "(F)TWS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_INDIRECT EVAP SUPPLY",
+      "description": "FABMPIPE_INDIRECT EVAP SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "abbreviations": [
+        "HIES",
+        "(F)HIES"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_LOW TEMP CHILLED WATER",
+      "description": "FABMPIPE_LOW TEMP CHILLED WATER",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 124,
+        "B": 165
+      },
+      "abbreviations": [
+        "LCH",
+        "(F)LCH"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_LOW TEMP CHILLED WATER RETURN",
+      "description": "FABMPIPE_LOW TEMP CHILLED WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 0,
+        "G": 182,
+        "B": 242
+      },
+      "abbreviations": [
+        "LCHR",
+        "(F)LCHR"
+      ]
+    }
+  ]
+}
