@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "versionDate": "2026-04",
   "worksets": [
     {
@@ -424,7 +424,7 @@
         "(F)SA-LP",
         "SALP",
         "(F)SALP",
-        "LP-SA",  
+        "LP-SA",
         "(F)LP-SA",
         "LPSA-PL",
         "(F)LPSA-PL",
@@ -1522,6 +1522,8 @@
         "B": 0
       },
       "abbreviations": [
+        "CWS",
+        "(F)CWS",
         "CS",
         "(F)CS"
       ]
@@ -1536,6 +1538,8 @@
         "B": 127
       },
       "abbreviations": [
+        "CWR",
+        "(F)CWR",
         "CR",
         "(F)CR"
       ]
@@ -1608,8 +1612,38 @@
       "abbreviations": [
         "HS",
         "(F)HS",
+        "HHWS",
+        "(F)HHWS",
         "HWS",
         "(F)HWS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_GARAGE HEATING WATER SUPPLY",
+      "description": "FABMPIPE_GARAGEHEATING WATER SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 83,
+        "G": 0,
+        "B": 56
+      },
+      "abbreviations": [
+        "GHWS",
+        "(F)GHWS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_GARAGE HEATING WATER RETURN",
+      "description": "FABMPIPE_GARAGE HEATING WATER RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 104,
+        "G": 0,
+        "B": 163
+      },
+      "abbreviations": [
+        "GHWR",
+        "(F)GHWR"
       ]
     },
     {
@@ -1964,6 +1998,8 @@
         "B": 127
       },
       "abbreviations": [
+        "CTWR",
+        "(F)CTWR",
         "TWR",
         "(F)TWR"
       ]
@@ -1978,6 +2014,8 @@
         "B": 0
       },
       "abbreviations": [
+        "CTWS",
+        "(F)CTWS",
         "TWS",
         "(F)TWS"
       ]
@@ -2026,7 +2064,6 @@
     }
   ]
 }
-
 
 
 
