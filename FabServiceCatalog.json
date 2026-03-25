@@ -2063,6 +2063,20 @@
         "LCHR",
         "(F)LCHR"
       ]
+    },
+    {
+      "materialName": "FABMPIPE_HANGERS",
+      "description": "FABMPIPE_HANGERS",
+      "worksetName": "MT_HANGERS",
+      "color": {
+        "R": 204,
+        "G": 178,
+        "B": 102
+      },
+      "abbreviations": [
+        "HANG",
+        "(F)HANG"
+      ]
     }
   ]
 }
