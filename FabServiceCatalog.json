@@ -20,7 +20,7 @@
     },
     {
       "name": "Plumbing Fixtures",
-      "worksetName": "MT_PLUMBING-DWV",
+      "worksetName": "MT_PLUMBING-FIXTURES",
       "priority": 2,
       "enabled": true,
       "createIfMissing": true,
