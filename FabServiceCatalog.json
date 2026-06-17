@@ -3,13 +3,26 @@
   "versionDate": "2026-04",
   "worksets": [
     {
-      "name": "FAB HANGERS",
-      "worksetName": "MT_HANGERS",
-      "priority": 1,
-      "enabled": true,
-      "createIfMissing": true,
-      "match": { "category": [ "MEP Fabrication Hangers" ] }
-    },
+  "name": "UNISTRUT",
+  "worksetName": "MT_HANGER-UNISTRUT",
+  "priority": 1,
+  "enabled": true,
+  "createIfMissing": true,
+  "match": {
+    "fabrication": {
+      "cids": [ 838 ],
+      "nameContainsAll": [ "Unistrut" ]
+    }
+  }
+},
+{
+  "name": "FAB HANGERS",
+  "worksetName": "MT_HANGERS",
+  "priority": 2,
+  "enabled": true,
+  "createIfMissing": true,
+  "match": { "category": [ "MEP Fabrication Hangers" ] }
+},
     {
       "name": "AIR TERMINALS",
       "worksetName": "MT_TERMINALS",
