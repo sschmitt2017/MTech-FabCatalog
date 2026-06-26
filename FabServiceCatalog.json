@@ -1547,6 +1547,8 @@
       "abbreviations": [
         "CWS",
         "(F)CWS",
+        "CWS-AHSP",
+        "(F)CWS-ASHP",
         "CS",
         "(F)CS"
       ]
@@ -1561,6 +1563,8 @@
         "B": 127
       },
       "abbreviations": [
+        "CWR-ASHP",
+        "(F)CWR-ASHP",
         "CWR",
         "(F)CWR",
         "CR",
@@ -1637,6 +1641,8 @@
         "(F)HS",
         "HHWS",
         "(F)HHWS",
+        "HWS-AHSP",
+        "(F)HWS-ASHP",
         "HWS",
         "(F)HWS"
       ]
@@ -1683,6 +1689,8 @@
         "(F)HR",
         "HHWR",
         "(F)HHWR",
+        "HWR-ASHP",
+        "(F)HWR-ASHP",
         "HWR",
         "(F)HWR"
       ]
