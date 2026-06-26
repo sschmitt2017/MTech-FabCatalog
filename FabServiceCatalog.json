@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "versionDate": "2026-04",
+  "version": 4,
+  "versionDate": "2026-06",
   "worksets": [
     {
   "name": "UNISTRUT",
@@ -515,6 +515,8 @@
       "abbreviations": [
         "RA",
         "(F)RA",
+        "RA-EAV",
+        "(F)RA-EAV",
         "RA-PL",
         "(F)RA-PL",
         "RA-2WG",
