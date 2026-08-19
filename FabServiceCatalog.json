@@ -96,6 +96,20 @@
       ]
     },
     {
+      "materialName": "FABDUCT_FUME HOOD AIR",
+      "description": "FABDUCT_FUME HOOD AIR",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 65,
+        "G": 240,
+        "B": 110
+      },
+      "abbreviations": [
+        "FHA",
+        "(F)FHA"
+      ]
+    },
+    {
       "materialName": "FABDUCT_ALUMINUM",
       "description": "FABDUCT_ALUMINUM",
       "worksetName": "MT_DUCT",
