@@ -1561,8 +1561,6 @@
       "abbreviations": [
         "CWS",
         "(F)CWS",
-        "CWS-ASHP",
-        "(F)CWS-ASHP",
         "CS",
         "(F)CS"
       ]
@@ -1577,8 +1575,6 @@
         "B": 127
       },
       "abbreviations": [
-        "CWR-ASHP",
-        "(F)CWR-ASHP",
         "CWR",
         "(F)CWR",
         "CR",
@@ -1733,6 +1729,8 @@
         "B": 254
       },
       "abbreviations": [
+        "(F)CWS-ASHP",
+        "CWS-ASHP",
         "PCWS",
         "(F)PCWS",
         "PCS",
@@ -1751,6 +1749,8 @@
         "B": 165
       },
       "abbreviations": [
+        "(F)CWR-ASHP",
+        "CWR-ASHP",
         "PCWR",
         "(F)PCWR",
         "PCR",
