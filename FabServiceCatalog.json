@@ -1,28 +1,28 @@
 {
-  "version": 4,
-  "versionDate": "2026-06",
+  "version": 5,
+  "versionDate": "2026-09",
   "worksets": [
     {
-  "name": "UNISTRUT",
-  "worksetName": "MT_HANGER-UNISTRUT",
-  "priority": 1,
-  "enabled": true,
-  "createIfMissing": true,
-  "match": {
-    "fabrication": {
-      "cids": [ 838 ],
-      "nameContainsAll": [ "Unistrut" ]
-    }
-  }
-},
-{
-  "name": "FAB HANGERS",
-  "worksetName": "MT_HANGERS",
-  "priority": 2,
-  "enabled": true,
-  "createIfMissing": true,
-  "match": { "category": [ "MEP Fabrication Hangers" ] }
-},
+      "name": "UNISTRUT",
+      "worksetName": "MT_HANGER-UNISTRUT",
+      "priority": 1,
+      "enabled": true,
+      "createIfMissing": true,
+      "match": {
+        "fabrication": {
+          "cids": [ 838 ],
+          "nameContainsAll": [ "Unistrut" ]
+        }
+      }
+    },
+    {
+      "name": "FAB HANGERS",
+      "worksetName": "MT_HANGERS",
+      "priority": 2,
+      "enabled": true,
+      "createIfMissing": true,
+      "match": { "category": [ "MEP Fabrication Hangers" ] }
+    },
     {
       "name": "AIR TERMINALS",
       "worksetName": "MT_TERMINALS",
@@ -56,7 +56,7 @@
       "match": { "fabrication": { "cids": [ 149, 972 ] } }
     },
     {
-      "name": "DAMAPERS",
+      "name": "DAMPERS",
       "worksetName": "MT_FIRE-DAMPER",
       "priority": 5,
       "enabled": true,
@@ -872,7 +872,7 @@
     {
       "materialName": "FABPLMG_ACETONITRILE",
       "description": "FABPLMG_ACETONITRILE",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 75,
         "G": 7,
@@ -886,7 +886,7 @@
     {
       "materialName": "FABPLMG_ARGON",
       "description": "FABPLMG_ARGON",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 165,
         "G": 0,
@@ -900,7 +900,7 @@
     {
       "materialName": "FABPLMG_COMPRESSED AIR",
       "description": "FABPLMG_COMPRESSED AIR",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 165,
         "G": 165,
@@ -914,7 +914,7 @@
     {
       "materialName": "FABPLMG_BUFFER",
       "description": "FABPLMG_BUFFER",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 145,
         "G": 165,
@@ -928,7 +928,7 @@
     {
       "materialName": "FABPLMG_CARBON DIOXIDE",
       "description": "FABPLMG_CARBON DIOXIDE",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 255,
         "G": 191,
@@ -942,7 +942,7 @@
     {
       "materialName": "FABPLMG_DEBLOCK-DETRY",
       "description": "FABPLMG_DEBLOCK-DETRY",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 255,
         "G": 50,
@@ -956,7 +956,7 @@
     {
       "materialName": "FABPLMG_ETHANOL",
       "description": "FABPLMG_ETHANOL",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 215,
         "G": 128,
@@ -970,7 +970,7 @@
     {
       "materialName": "FABPLMG_GAS PRESSURE RELIEF",
       "description": "FABPLMG_GAS PRESSURE RELIEF",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 165,
         "G": 0,
@@ -984,7 +984,7 @@
     {
       "materialName": "FABPLMG_HELIUM",
       "description": "FABPLMG_HELIUM",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 165,
         "G": 124,
@@ -998,7 +998,7 @@
     {
       "materialName": "FABPLMG_HYDROGEN",
       "description": "FABPLMG_HYDROGEN",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 0,
         "G": 165,
@@ -1014,7 +1014,7 @@
     {
       "materialName": "FABPLMG_INSTRUMENT AIR",
       "description": "FABPLMG_INSTRUMENT AIR",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 165,
         "G": 0,
@@ -1028,7 +1028,7 @@
     {
       "materialName": "FABPLMG_MEDICAL AIR",
       "description": "FABPLMG_MEDICAL AIR",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 165,
         "G": 0,
@@ -1044,7 +1044,7 @@
     {
       "materialName": "FABPLMG_NITROUS OXIDE",
       "description": "FABPLMG_NITROUS OXIDE",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 255,
         "G": 0,
@@ -1058,7 +1058,7 @@
     {
       "materialName": "FABPLMG_NITROGEN",
       "description": "FABPLMG_NITROGEN",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 31,
         "G": 0,
@@ -1078,7 +1078,7 @@
     {
       "materialName": "FABPLMG_OXIDIZER",
       "description": "FABPLMG_OXIDIZER",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 127,
         "G": 127,
@@ -1092,7 +1092,7 @@
     {
       "materialName": "FABPLMG_OXYGEN",
       "description": "FABPLMG_OXYGEN",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 0,
         "G": 165,
@@ -1106,7 +1106,7 @@
     {
       "materialName": "FABPLMG_VACUUM",
       "description": "FABPLMG_VACUUM",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 165,
         "G": 82,
@@ -1122,7 +1122,7 @@
     {
       "materialName": "FABPLMG_MEDGAS_VACUUM",
       "description": "FABPLMG_MEDGAS_VACUUM",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 165,
         "G": 82,
@@ -1136,7 +1136,7 @@
     {
       "materialName": "FABPLMG_ZERO AIR",
       "description": "FABPLMG_ZERO AIR",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 0,
         "G": 128,
@@ -1152,7 +1152,7 @@
     {
       "materialName": "FABPLMG_REVERSE OSMOSIS RETURN",
       "description": "FABPLMG_REVERSE OSMOSIS RETURN",
-      "worksetName": "MT-GASES",
+      "worksetName": "MT_GASES",
       "color": {
         "R": 255,
         "G": 128,
