@@ -1686,6 +1686,34 @@
       ]
     },
     {
+      "materialName": "FABMPIPE_GEOTHERMAL SUPPLY",
+      "description": "FABMPIPE_GEOTHERMAL SUPPLY",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 165,
+        "G": 82,
+        "B": 124
+      },
+      "abbreviations": [
+        "GTS",
+        "(F)GTS"
+      ]
+    },
+    {
+      "materialName": "FABMPIPE_GEOTHERMAL RETURN",
+      "description": "FABMPIPE_GEOTHERMAL RETURN",
+      "worksetName": "MT_MPIPE",
+      "color": {
+        "R": 127,
+        "G": 63,
+        "B": 127
+      },
+      "abbreviations": [
+        "GTR",
+        "(F)GTR"
+      ]
+    },
+    {
       "materialName": "FABMPIPE_HEATING WATER RETURN",
       "description": "FABMPIPE_HEATING WATER RETURN",
       "worksetName": "MT_MPIPE",
