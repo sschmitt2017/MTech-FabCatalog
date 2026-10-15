@@ -1649,6 +1649,8 @@
       "abbreviations": [
         "HS",
         "(F)HS",
+        "SHWS",
+        "(F)SHWS",
         "HHWS",
         "(F)HHWS",
         "HWS-ASHP",
@@ -1727,6 +1729,8 @@
         "(F)HR",
         "HHWR",
         "(F)HHWR",
+        "SHWR",
+        "(F)SHWR",
         "HWR-ASHP",
         "(F)HWR-ASHP",
         "HWR",
