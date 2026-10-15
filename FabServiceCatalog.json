@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "versionDate": "2026-09",
+  "version": 6,
+  "versionDate": "2026-10",
   "worksets": [
     {
       "name": "UNISTRUT",
@@ -93,6 +93,34 @@
         "(F)EXH-FLUE",
         "BF",
         "(F)BF"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_EXHAUST CHEM",
+      "description": "FABDUCT_EXHAUST CHEM",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 0,
+        "G": 185,
+        "B": 90
+      },
+      "abbreviations": [
+        "EXH-CHEM",
+        "(F)EXH-CHEM"
+      ]
+    },
+    {
+      "materialName": "FABDUCT_FOAM CORE PVC",
+      "description": "FABDUCT_FOAM CORE PVC",
+      "worksetName": "MT_DUCT",
+      "color": {
+        "R": 50,
+        "G": 200,
+        "B": 0
+      },
+      "abbreviations": [
+        "CE",
+        "(F)CE"
       ]
     },
     {
